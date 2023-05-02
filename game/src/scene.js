@@ -19,7 +19,7 @@ var createScene = function () {
 	var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(0.3, 0.7, -0.3), scene);
 
 	// Default intensity is 1. Let's dim the light a small amount
-	light.intensity = 0.7;
+	light.intensity = 1;
 
 	// Add a ground and ceiling object
 	var ground = BABYLON.MeshBuilder.CreateBox("ground", { width: 100, depth: 6, height: 1 }, scene);

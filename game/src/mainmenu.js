@@ -90,9 +90,9 @@ class MainMenu extends GameObject {
 
 		// Create a Text Block that can display the current score
 		this.welcomeText = new BABYLON.GUI.TextBlock();
-		this.welcomeText.text = "Flying Cube Game!";
-		this.welcomeText.fontFamily = "Impact";
-		this.welcomeText.color = "white";
+		this.welcomeText.text = "Flying Ball Game!";
+		this.welcomeText.fontFamily = "Bruno Ace SC";
+		this.welcomeText.color = "#ff3333";
 		this.welcomeText.fontSize = 72;
 		this.welcomeText.verticalAlignment = BABYLON.GUI.TextBlock.VERTICAL_ALIGNMENT_TOP;
 		this.welcomeText.horizontalAlignment = BABYLON.GUI.TextBlock.HORIZONTAL_ALIGNMENT_CENTER;
@@ -101,18 +101,18 @@ class MainMenu extends GameObject {
 
 		this.greetingText = new BABYLON.GUI.TextBlock();
 		this.greetingText.text = greeting;
-		this.greetingText.fontFamily = "Impact";
-		this.greetingText.color = "white";
-		this.greetingText.fontSize = 28;
+		this.greetingText.fontFamily = "Bruno Ace SC";
+		this.greetingText.color = "#d966ff";
+		this.greetingText.fontSize = 25;
 		this.greetingText.verticalAlignment = BABYLON.GUI.TextBlock.VERTICAL_ALIGNMENT_TOP;
 		this.greetingText.horizontalAlignment = BABYLON.GUI.TextBlock.HORIZONTAL_ALIGNMENT_CENTER;
 		this.greetingText.width = 0.5;
 		this.greetingText.height = 0.7;
 
 		this.instructionsText = new BABYLON.GUI.TextBlock();
-		this.instructionsText.text = "press any key to play";
-		this.instructionsText.fontFamily = "Impact";
-		this.instructionsText.color = "#aafffa";
+		this.instructionsText.text = "press Space to play";
+		this.instructionsText.fontFamily = "Bruno Ace SC";
+		this.instructionsText.color = "#f8c27c";
 		this.instructionsText.fontSize = 32;
 		this.instructionsText.verticalAlignment = BABYLON.GUI.TextBlock.VERTICAL_ALIGNMENT_TOP;
 		this.instructionsText.horizontalAlignment = BABYLON.GUI.TextBlock.HORIZONTAL_ALIGNMENT_CENTER;

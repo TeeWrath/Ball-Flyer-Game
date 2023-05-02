@@ -1,5 +1,5 @@
-var obstacleSpeed = 1.5; // Changing this will impact how quickly obstacles in the game move.
-var gapSize = 3; // This determines the size of the gap to create between the floor and ceiling.
+var obstacleSpeed = 2.5; // Changing this will impact how quickly obstacles in the game move.
+var gapSize = 4; // This determines the size of the gap to create between the floor and ceiling.
 
 class Barrier extends GameObject {
 	constructor() {
@@ -17,7 +17,7 @@ class Barrier extends GameObject {
 		this.floorBox = BABYLON.MeshBuilder.CreateBox("floorObstacle", boxOptions, scene);
 		// Materials impact how an object is rendered like color, texture etc.
 		let barrierMaterial = new BABYLON.StandardMaterial("Barrier Material", scene);
-		barrierMaterial.diffuseColor = BABYLON.Color3.Green();
+		barrierMaterial.diffuseColor = BABYLON.Color3.Purple();
 		this.ceilingBox.material = barrierMaterial;
 		this.floorBox.material = barrierMaterial;
 		this.assignLocations();
